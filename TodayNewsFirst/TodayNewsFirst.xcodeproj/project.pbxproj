@@ -16,6 +16,14 @@
 		CD340D541F9DD4F70072290E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD340D521F9DD4F70072290E /* LaunchScreen.storyboard */; };
 		CD340D5F1F9DD4F70072290E /* TodayNewsFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D5E1F9DD4F70072290E /* TodayNewsFirstTests.swift */; };
 		CD340D6A1F9DD4F70072290E /* TodayNewsFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D691F9DD4F70072290E /* TodayNewsFirstUITests.swift */; };
+		CD340D8E1F9DF1A90072290E /* AdvertiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D8C1F9DF1A90072290E /* AdvertiseViewController.swift */; };
+		CD340D8F1F9DF1A90072290E /* AdvertiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD340D8D1F9DF1A90072290E /* AdvertiseViewController.xib */; };
+		CD340D911F9DF62D0072290E /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D901F9DF62D0072290E /* Const.swift */; };
+		CD340D931F9DFB8C0072290E /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D921F9DFB8C0072290E /* MyNavigationViewController.swift */; };
+		CD340D951F9E04E80072290E /* WeiTouTiaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D941F9E04E80072290E /* WeiTouTiaoViewController.swift */; };
+		CD340D971F9E04F90072290E /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D961F9E04F90072290E /* MineViewController.swift */; };
+		CD340D991F9E051D0072290E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D981F9E051D0072290E /* FirstViewController.swift */; };
+		CD340D9B1F9E052B0072290E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD340D9A1F9E052B0072290E /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		CD340D651F9DD4F70072290E /* TodayNewsFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNewsFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD340D691F9DD4F70072290E /* TodayNewsFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsFirstUITests.swift; sourceTree = "<group>"; };
 		CD340D6B1F9DD4F70072290E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD340D8C1F9DF1A90072290E /* AdvertiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseViewController.swift; sourceTree = "<group>"; };
+		CD340D8D1F9DF1A90072290E /* AdvertiseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertiseViewController.xib; sourceTree = "<group>"; };
+		CD340D901F9DF62D0072290E /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		CD340D921F9DFB8C0072290E /* MyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
+		CD340D941F9E04E80072290E /* WeiTouTiaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiTouTiaoViewController.swift; sourceTree = "<group>"; };
+		CD340D961F9E04F90072290E /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CD340D981F9E051D0072290E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD340D9A1F9E052B0072290E /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +175,7 @@
 		CD340D771F9DD5CD0072290E /* Define */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D901F9DF62D0072290E /* Const.swift */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -202,6 +219,9 @@
 		CD340D7C1F9DD5CD0072290E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D8C1F9DF1A90072290E /* AdvertiseViewController.swift */,
+				CD340D8D1F9DF1A90072290E /* AdvertiseViewController.xib */,
+				CD340D981F9E051D0072290E /* FirstViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,6 +253,7 @@
 		CD340D801F9DD5CD0072290E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D961F9E04F90072290E /* MineViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -264,6 +285,7 @@
 		CD340D841F9DD5CD0072290E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D941F9E04E80072290E /* WeiTouTiaoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -295,6 +317,7 @@
 		CD340D881F9DD5CD0072290E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D9A1F9E052B0072290E /* VideoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -316,6 +339,7 @@
 		CD340D8B1F9DD5FC0072290E /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CD340D921F9DFB8C0072290E /* MyNavigationViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -432,6 +456,7 @@
 			files = (
 				CD340D541F9DD4F70072290E /* LaunchScreen.storyboard in Resources */,
 				CD340D511F9DD4F70072290E /* Assets.xcassets in Resources */,
+				CD340D8F1F9DF1A90072290E /* AdvertiseViewController.xib in Resources */,
 				CD340D4C1F9DD4F70072290E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,9 +550,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD340D991F9E051D0072290E /* FirstViewController.swift in Sources */,
 				CD340D4F1F9DD4F70072290E /* TodayNewsFirst.xcdatamodeld in Sources */,
+				CD340D951F9E04E80072290E /* WeiTouTiaoViewController.swift in Sources */,
 				CD340D491F9DD4F70072290E /* ViewController.swift in Sources */,
+				CD340D971F9E04F90072290E /* MineViewController.swift in Sources */,
+				CD340D8E1F9DF1A90072290E /* AdvertiseViewController.swift in Sources */,
 				CD340D471F9DD4F70072290E /* AppDelegate.swift in Sources */,
+				CD340D931F9DFB8C0072290E /* MyNavigationViewController.swift in Sources */,
+				CD340D9B1F9E052B0072290E /* VideoViewController.swift in Sources */,
+				CD340D911F9DF62D0072290E /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
